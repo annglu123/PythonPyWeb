@@ -319,5 +319,3 @@ class EntryJson(View):
         return JsonResponse({"message": "Нет такой записи"}, status=404,
                             json_dumps_params={"ensure_ascii": False,
                                                "indent": 4})
-
-
